@@ -24,8 +24,8 @@ The hyperparameters are tuned in a custom grid search. Random seeds are set for 
 | Architecture              |   F1 Score |   Accuracy |   Accuracy Inliers |   Accuracy Outliers |   Learning Rate |   Batch Size | Hidden Layers   |   Latent Space Size |   Seed |   MSE Threshold |
 |:--------------------------|-----------:|-----------:|-------------------:|--------------------:|----------------:|-------------:|:----------------|--------------------:|-------:|----------------:|
 | Undercomplete Autoencoder |   0.853868 |   0.899408 |           0.927492 |            0.846591 |           0.01  |           32 | [18]            |                  14 |      1 |             0.6 |
-| Denoising Autoencoder     |   **0.857955** |   0.901381 |           0.924471 |            0.857955 |           0.001 |           64 | [18, 16]        |                  12 |      0 |             4.6 |
-| Variational Autoencoder   |   **0.857955** |   0.901381 |           0.924471 |            0.857955 |           0.001 |           32 | [18]            |                  12 |      2 |             4.6 |
+| Denoising Autoencoder     |   0.857955 |   0.901381 |           0.924471 |            0.857955 |           0.001 |           64 | [18, 16]        |                  12 |      0 |             4.6 |
+| Variational Autoencoder   |   **0.861789** |   0.899408 |           0.897281 |            0.903409 |           0.001 |           32 | [18]            |                  12 |      2 |             1.7 |
 
 
 ## References
